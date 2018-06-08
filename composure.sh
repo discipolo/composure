@@ -20,9 +20,9 @@ _bootstrap_composure() {
 _get_composure_dir ()
 {
   if [ -n "$XDG_DATA_HOME" ]; then
-    echo "$XDG_DATA_HOME/composure"
+    echo "$XDG_DATA_HOME/composure/"
   else
-    echo "$HOME/.local/composure"
+    echo "$HOME/.local/composure/"
   fi
 }
 
